@@ -1,0 +1,108 @@
+body {
+  letter-spacing: .03em;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 1rem;
+}
+
+.content {
+  background: gainsboro;
+  overflow: hidden;
+  border-bottom-left-radius: .3em;
+  border-bottom-right-radius: .3em;
+
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.1);
+}
+.first {
+  background-color: white;
+  border-top: 1px solid #e6e6e6;
+    border-left: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+}
+
+.content::before {
+  content: "";
+  display: block;
+}
+
+.first::before {
+  content: "";
+  padding-bottom: 0;
+  display: block;
+}
+
+.personal_logo {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  display: block;
+}
+
+.first.personal_logo {
+  height: 60%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.last.personal_logo {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+
+.personal_links {
+  overflow: auto;
+  border-top: 1px solid gainsboro;
+  background-color: white;
+  width: 100%;
+  border-top-left-radius: .5em;
+  border-top-right-radius: .5em;
+}
+
+
+.nav_links {
+  overflow: auto;
+  text-align: center;
+}
+
+
+
+.link {
+  font-size: 1.1em;
+  text-decoration: none;
+  padding: .3em 0;
+}
+
+
+
+.link_1 {
+  overflow: auto;
+  color: #6d7fcc;
+  padding: .5 em .7em;
+}
+
+.link_2 {
+  overflow: auto;
+  color: #6d7fcc;
+  padding: .3em .5em;
+}
+
+.action_link {
+  margin-top: .4em;
+  text-align: center; 
+  display: block;
+  padding: 1em .5em;
+  background-color: #6d7fcc;
+  color: white;
+  text-decoration: none;
+}
+
+.get_started {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px;
+}
