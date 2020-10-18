@@ -5,6 +5,7 @@
 body {
   letter-spacing: .03em;
   margin: 0;
+  background-color: #6d7fcc;
 }
 
 .site {
@@ -117,4 +118,61 @@ body {
   text-align: center;
   vertical-align: middle;
   line-height: 90px;
+}
+
+
+
+/* Coming Soon! */
+
+.full-page-bg {
+  background-color: #6d7fcc;
+  position: absolute;
+  letter-spacing: .04em;
+  top: 0; right: 0; bottom: 0; left: 0;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.temp_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  color: #6d7fcc;
+  background-color: white;
+  padding: 3em;
+  border-radius: .5em;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.promote-me {
+  text-decoration: none;
+  color: white;
+  background-color: #6d7fcc;
+  padding: .7em 1.5em;
+  border-radius: .5em;
+  margin-top: 2em;
+  display: inline-block;
+}
+
+.promo-title {
+  font-size: 2.5em;
+}
+
+.promo-text {
+  font-size: 1.1em;
+}
+
+.footer {
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  margin-right: -50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.1em;
 }
