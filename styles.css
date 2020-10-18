@@ -4,8 +4,11 @@
 }
 body {
   letter-spacing: .03em;
-  margin: 0;
-  background-color: #6d7fcc;
+  margin: 8px !important;
+  background-color: #6d7fcc !important;
+  background-image: url('imgs/background-image.png');
+  background-size: cover;
+  background-blend-mode: screen;
 }
 
 .site {
@@ -26,6 +29,17 @@ body {
 
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.1);
 }
+
+.last {
+  border-radius: .5em;
+  border: 1px solid gainsboro;
+  transition: all ease-out .3s;
+}
+
+.last:hover {
+  border: 3px solid white;
+}
+
 .first {
   background-color: white;
   border-top: 1px solid #e6e6e6;
@@ -69,7 +83,6 @@ body {
 
 .personal_links {
   overflow: auto;
-  border-top: 1px solid gainsboro;
   background-color: white;
   width: 100%;
   border-top-left-radius: .5em;
@@ -81,6 +94,7 @@ body {
   overflow: auto;
   text-align: center;
   padding: .3em;
+  background-color: #6d7fcc;
 }
 
 
@@ -88,21 +102,20 @@ body {
 .link {
   font-size: 1.1em;
   text-decoration: none;
-  padding: .3em 0;
+  padding: .1em 0;
+  color: white;
 }
 
 
 
 .link_1 {
   overflow: auto;
-  color: #6d7fcc;
-  padding: .5em 1em;
+  padding: .1em 1em;
 }
 
 .link_2 {
   overflow: auto;
-  color: #6d7fcc;
-  padding: .5em 1em;
+  padding: .1em 1em;
 }
 
 .action_link {
@@ -129,9 +142,7 @@ body {
   position: absolute;
   letter-spacing: .04em;
   top: 0; right: 0; bottom: 0; left: 0;
-  background-image: url('imgs/background-image.png');
-  background-size: cover;
-  background-blend-mode: screen;
+  
 }
 
 h1 {
