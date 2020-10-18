@@ -129,6 +129,9 @@ body {
   position: absolute;
   letter-spacing: .04em;
   top: 0; right: 0; bottom: 0; left: 0;
+  background-image: url('imgs/background-image.png');
+  background-size: cover;
+  background-blend-mode: screen;
 }
 
 h1 {
