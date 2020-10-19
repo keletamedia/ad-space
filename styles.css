@@ -25,13 +25,6 @@
   -webkit-border-radius: 100px;
 }
 
-
-
-
-.strip_color {
-  background-color: #6d7fcc;
-  height: 3px;
-}
 body {
   letter-spacing: .03em;
   margin: 8px !important;
